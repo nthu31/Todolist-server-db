@@ -1,2 +1,13 @@
-# Todolist-server-db
-Todo-list web application with postgreSQL database server side code
+# Todolist_server
+Todo-list web application server side with postgresql
+
+## Develop Tool
+* Node.js Express
+
+## Usage
+1. Make sure node.js has been installed
+2. Run "npm install" to fetch all packages needed
+3. Run "npm run watch" to launch server ready for client http request
+
+## DataBase
+* PostgreSQL
