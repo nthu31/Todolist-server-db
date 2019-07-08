@@ -6,8 +6,8 @@ try {
             console.log("In developing");
             break;
         default:
-            //process.env.DB_URL = `postgres://${process.env.RDS_USERNAME}:${process.env.RDS_PASSWORD}@${process.env.RDS_HOSTNAME}:${process.env.RDS_PORT}/${process.env.RDS_DB_NAME}`;
-            process.env.DB_URL = `postgres://potatodb:asd12125@mydb.cjwecs7ktrgk.ap-northeast-1.rds.amazonaws.com:5432/playdb`;
+            process.env.DB_URL = `postgres://${process.env.RDS_USERNAME}:${process.env.RDS_PASSWORD}@${process.env.RDS_HOSTNAME}:${process.env.RDS_PORT}/${process.env.RDS_DB_NAME}`;
+            //process.env.DB_URL = `postgres://potatodb:asd12125@mydb.cjwecs7ktrgk.ap-northeast-1.rds.amazonaws.com:5432/playdb`;
             break;
     }
 } catch (err) {
