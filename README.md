@@ -1,8 +1,12 @@
 # Todolist_server_db
+URL: http://todolist-server-db-dev.ap-northeast-1.elasticbeanstalk.com
 Todo-list web application server side with postgresql DataBase
 
 ## Develop Tool
+* HTML/CSS/ES6
+* React/Redux
 * Node.js Express
+* RESTful API
 
 ## Usage
 1. Make sure node.js has been installed
@@ -13,14 +17,12 @@ Todo-list web application server side with postgresql DataBase
 ```
 //in "env.sh"
 echo 'Setting up environment variables...'
-
 export NODE_ENV=development
 export PG_HOSTNAME=localhost
 export PG_PORT=5432
 export PG_USERNAME=<your own user name>
 export PG_PASSWORD=<your own user password>
 export PG_DB_NAME=<your own postgresql database name>
-
 echo 'Done'
 ```
 5. Run "source env.sh" to set the variable to environment
@@ -28,5 +30,8 @@ echo 'Done'
 7. Run "npm run watch" to launch your server side code
 8. Done, your backend code is running on port 7070...
 
-## DataBase
+## Platform
+* AWS Elastic Beanstalk + RDS
+
+## DataBase(AWS RDS)
 * PostgreSQL
